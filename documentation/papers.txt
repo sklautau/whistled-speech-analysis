@@ -1,0 +1,2 @@
+https://ieeexplore.ieee.org/document/7760581/citations?tabFilter=papers#citations
+2016 - Speaker-aware long short-term memory multi-task learning for speech recognition
