@@ -66,8 +66,8 @@ def write_to_file(folder, fp):
     expected_Fs = 44100 #expected sample rate (all files should have it)
     #note: the label calla is the same as caya
     labels = ["caba","cada","caga","caca","capa","casa","cata","caya"] #,"NOISE"]
-    #speakers = ["Mots","D2","Fuyi","Idir","Joel","Ricardo2","Tini"] #old
-    speakers = ["David","Fuyi","Idir","Joel","JoseLuiz","Ricardo","Tini"]
+    speakers = ["Speaker1","Speaker2","Speaker3","Speaker4","Speaker5","Speaker6","Speaker7"] #changed names to anonymize
+
     header = "filename,annotation,offset,starts,stops,speaker" #assumed header for labels
 
     histogram = np.zeros((len(labels),),dtype='int')
