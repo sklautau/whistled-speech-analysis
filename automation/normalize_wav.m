@@ -1,3 +1,5 @@
+%script to normalize all sound waves in a folder
+
 clear all
 d1 = dir('/path/to/audio/files/');
 str1 = {d1.name};
