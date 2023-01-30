@@ -36,7 +36,7 @@ batch_size = 1
 dropout_probability = 0.01 #to combat overfitting
 
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
-    "/nethome/pinheirs/Documents/papi/easyspeech/mots8/spectrogram_copy/train",
+    "/path/to/train",
     validation_split=0.2,
     subset="training",
     seed=1337,
@@ -44,7 +44,7 @@ train_ds = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=batch_size,
 )
 val_ds = tf.keras.preprocessing.image_dataset_from_directory(
-    "/nethome/pinheirs/Documents/papi/easyspeech/mots8/spectrogram_copy/test",
+    "/path/to/test",
     validation_split=0.2,
     subset="validation",
     seed=1337,
@@ -120,7 +120,7 @@ model.compile(loss=keras.losses.categorical_crossentropy,
 #              optimizer=Adagrad(),
 #              metrics=['accuracy','mae'])
 
-model.load_weights('/nethome/pinheirs/Documents/papi/easyspeech/mots8/spectrogram_copy/save_at_{epoch}.h5')
+model.load_weights('path/to/files/save_at_{epoch}.h5')
 
 
 callbacks = [
