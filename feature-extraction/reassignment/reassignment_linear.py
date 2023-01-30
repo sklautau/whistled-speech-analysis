@@ -1,3 +1,7 @@
+'''
+Code used and taken from: https://github.com/maggie-jiayizhang/hyper_resolution_spectrogram
+'''
+
 ### reassignment with linear-scale frequency scan ###
 # author: Jiayi (Maggie) Zhang <jiayizha@andrew.cmu.edu>
 
