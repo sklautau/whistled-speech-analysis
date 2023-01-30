@@ -1,7 +1,10 @@
 #from https://www.shedloadofcode.com/blog/how-to-batch-rename-files-in-folders-with-python
+#script to rename files according to pattern in a folder
+
 import os
 
 def rename_files(path):
+    #example usage
     #replacements = ["_dualforecast", "_narrative", "_pf1", "_summary", "_txn"]
     #search_terms = ["CLAIM", "NARRATIVE", "PF1", "SUMMARY", "Txn"]
     
