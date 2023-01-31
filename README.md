@@ -1,10 +1,27 @@
-# Whistled Speech
+# Whistled Speech Analysis
 
-DSP and machine learning for studying whistled speech
+DSP and Machine Learning for studying whistled speech.
 
 ### Data preparation and quick execution
-Organize the folders wav (with waveform files) and the software (with file execute_all.py) in the same folder.
+Organize the _wav_ folders for the classes (with their respective sound/waveform files) and put the software (file _execute_all.py_) in the same folder.
 Edit the file execute_all.py to choose the options.
+
+Directory and file structure example: 
+
+```
+.
+├── class1
+│   ├── wav1.wav
+│   └── wav2.wav
+├── class2
+│   ├── wav3.wav
+│   └── wav4.wav
+├── class3
+│   ├── wav5.wav
+│   └── wav6.wav
+└── execute_all.py
+```
+
 Execute:
 ```
 python execute_all.py
